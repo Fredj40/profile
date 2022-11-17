@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@200;600&family=Ubuntu:ital,wght@0,400;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Nunito:wght@300&family=Poppins:wght@200;600&family=Ubuntu:ital,wght@0,400;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Poppins:ital,wght@0,700;1,700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(203, 211, 205);
+  color: 222831;
+  padding: 50px;
+  text-align: center;
+  line-height: 30px;
+}
+h1,h2,h3 {
+  font-family: 'Nunito', sans-serif;
+  color:rgb(36, 82, 182);
+  line-height: 10px;
+}
+li{
+  display: inline;
+}
+ul {
+    padding: 0;
+}
+a {
+  text-decoration: none;
+  color:  rgb(36, 82, 182);
+  font-size: 60px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+a:hover {
+  background-color: rgb(36, 82, 182);
+  color: white;
+}
+#profil-pic{
+  margin-top: 30px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+#btn-wagon {
+  font-size: 16px;
+  background-color: rgb(36, 82, 182);
+  color: white;
+  border-radius: 4px;
+  padding: 8px;
+  margin-bottom: 20px;
+  display: inline-block
+}
+#btn-wagon:hover {
+  background-color: white;
+  color: rgb(36, 82, 182);
+}
+.container{
+  text-align: center;
+  margin: 0 auto;
+  width: 900px;
+}
+.container h1{
+  font-weight: bold;
+}
+.card{
+  padding: 12px;
+  border-radius: 4px;
+  border: 2px solid white;
+  box-shadow: 0px 10px 30px rgba(0,0,0,.1);
+  margin-bottom: 50px;
+  background-color: white;
+}
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
